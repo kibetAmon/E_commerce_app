@@ -59,10 +59,9 @@ class Products(models.Model):
 
 
 class Customer(models.Model):
-    objects = None
-    first_name = models.CharField(max_length=255, null=False, default='_amon')
-    last_name = models.CharField(max_length=255, null=False, default='_kibet')
-    email = models.EmailField(unique=True)
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    email = models.EmailField()
     phone = models.CharField(max_length=255)
     password = models.CharField(max_length=100)
 
