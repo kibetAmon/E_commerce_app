@@ -22,7 +22,7 @@ class Products(models.Model):
     name = models.CharField(max_length=255)
     price = models.IntegerField(default=0)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
-    description = models.TextField()
+    description = models.TextField(max_length=250, default='', blank=True, null=True)
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='uploads')
@@ -61,7 +61,7 @@ class Products(models.Model):
 class Customer(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
-    email = models.EmailField()
+    email = models.EmailField(unique=True)
     phone = models.CharField(max_length=255)
     password = models.CharField(max_length=100)
 

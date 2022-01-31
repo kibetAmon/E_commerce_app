@@ -81,9 +81,9 @@ class Login(View):
                     Login.return_url = None
                     return redirect('homepage')
             else:
-                error_message = 'Invalid !'
+                error_message = 'Invalid Password !!'
         else:
-            error_message = 'Invalid !'
+            error_message = 'Invalid customer !!'
 
         print(email, password)
         return render(request, 'login.html', {'error': error_message})
@@ -112,6 +112,7 @@ class Signup(View):
             'phone': phone,
             'email': email
         }
+
         error_message = None
 
         customer = Customer(first_name=first_name,
