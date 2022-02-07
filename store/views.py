@@ -3,8 +3,13 @@ from django.contrib.auth.hashers import check_password, make_password
 from django.views import View
 from .models import Category, Products, Customer, Order
 
+'''
+        Views:
+        1. Index view - Retrieval and display of products to the user by template rendering.
+                      - Cart functionality ; addition and removal of products in the cart.
+                      -store() method for pulling of products and categories from the database        
+'''
 
-# Create your views here.
 
 class Index(View):
 
@@ -58,6 +63,15 @@ def store(request):
     return render(request, 'index.html', data)
 
 
+'''
+   2. Login view
+   - User input of credentials; email and password
+   - Retrieval of users from the database
+   -Data validation
+   -logout() method for logging out a user
+'''
+
+
 class Login(View):
     return_url = None
 
@@ -92,6 +106,13 @@ class Login(View):
 def logout(request):
     request.session.clear()
     return redirect('login')
+
+
+'''
+   3. Sign up view
+   - User creates an account
+   - Validation of user input
+'''
 
 
 class Signup(View):
@@ -159,6 +180,12 @@ class Signup(View):
         return error_message
 
 
+'''
+   4. Checkout view
+     - User checks out to proceed with purchase and orders recorded
+'''
+
+
 class CheckOut(View):
     def post(self, request):
         address = request.POST.get('address')
@@ -177,9 +204,15 @@ class CheckOut(View):
                           phone=phone,
                           quantity=cart.get(str(product.id)))
             order.save()
-            request.session['cart'] = {}
+        request.session['cart'] = {}
 
-            return redirect('cart')
+        return redirect('cart')
+
+
+'''
+   5. Order view
+      - Retrieval of orders from the database and displaying to the user
+'''
 
 
 class OrderView(View):
@@ -189,6 +222,13 @@ class OrderView(View):
         orders = Order.get_orders_by_customer(customer)
         print(orders)
         return render(request, 'orders.html', {'orders': orders})
+
+
+'''
+    6. Cart view
+       - Pulling of the products from the database
+       - Display of the cart products
+'''
 
 
 class Cart(View):

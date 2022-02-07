@@ -5,7 +5,7 @@ register = template.Library()
 
 @register.filter(name='currency')
 def currency(number):
-    return "Price: " + str(number)
+    return "price " + str(number)
 
 
 @register.filter(name='multiply')

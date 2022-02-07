@@ -1,0 +1,1 @@
+web: gunicorn Naivas.wsgi --log-file -
