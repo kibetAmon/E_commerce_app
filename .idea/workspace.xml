@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f41707fc-3c9f-4eee-8215-51780d6517eb" name="Default Changelist" comment="addition of auth_middleware">
+    <list default="true" id="f41707fc-3c9f-4eee-8215-51780d6517eb" name="Default Changelist" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
