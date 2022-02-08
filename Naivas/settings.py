@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-qs2$0o==htb!@_a=d8)(qkgca8fwywbu*j7jdxuo9(i5d-4=fw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['amon-groceries.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['amon-mygroceries.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
