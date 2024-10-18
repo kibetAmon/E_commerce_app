@@ -1,11 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f41707fc-3c9f-4eee-8215-51780d6517eb" name="Default Changelist" comment="addition of auth_middleware" />
+    <list default="true" id="f41707fc-3c9f-4eee-8215-51780d6517eb" name="Default Changelist" comment="updates">
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cta-illustration-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cta-illustration-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-01-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-01-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-02-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-02-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-03-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/feature-03-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-box-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-box-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-illustration-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-illustration-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-illustration-top-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/features-illustration-top-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grocery_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/header-illustration-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/header-illustration-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero-media-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero-media-illustration-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero-media-illustration-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero-media-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/0008_alter_products_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/baileys_VV6cLxY.jfif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naivas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naivas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naivas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naivas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templatetags/custom_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/templatetags/custom_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,23 +81,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SEPA_2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\AMON\AppData\Local\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/store" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/store/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -106,6 +162,9 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
