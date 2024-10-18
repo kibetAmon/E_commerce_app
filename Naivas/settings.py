@@ -2,7 +2,7 @@
 Django settings for Naivas project.
 
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -15,9 +15,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qs2$0o==htb!@_a=d8)(qkgca8fwywbu*j7jdxuo9(i5d-4=fw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['amon-mygroceries.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -36,7 +36,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
     # heroku serving static files
-    'whitenoise.middleware.whitenoiseMiddleware',
+    # 'whitenoise.middleware.whitenoiseMiddleware',
 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -113,3 +113,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = "image/uploads/"
 MEDIA_ROOT = BASE_DIR
+
+# Add these new lines
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')

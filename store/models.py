@@ -22,7 +22,7 @@ class Products(models.Model):
     name = models.CharField(max_length=255)
     price = models.IntegerField(default=0)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
-    description = models.TextField(max_length=250, default='', blank=True, null=True)
+    description = models.TextField(max_length=250, default='', blank=False, null=False)
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='uploads')

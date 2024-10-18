@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+{% load static %}
 
 <head>
   <!-- Required meta tags -->
@@ -9,6 +10,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- homepage -->
+  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css%' %}">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
   <title>Naivas Grocery</title>
 
@@ -22,7 +28,7 @@
 .display-8{
   font-weight: 200;
   font-size: 30px;
-  font-colour: $teal-200;
+  font-colour: steal-200;
 }
   </style>
 </head>
@@ -35,10 +41,10 @@
   sticky-top navbar
   navbar-expand-lg
   text-white">
-    <a class="navbar-brand ms-3 text-dark" href="/">
+    <a class="navbar-brand ms-3 text-dark" href="/homepage">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" style="width:50px;height:50px,color:text-light;">Naivas</a>
+    <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" style="width:50px;height:50px,color:text-light;">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -91,8 +97,8 @@
   <!---->
   {% block content %}{% endblock %}
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--  JavaScript -->
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
